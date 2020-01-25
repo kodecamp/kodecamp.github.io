@@ -1,0 +1,24 @@
+html{
+    font-size: 62.5%;
+    font-size: 1rem;
+}
+.container{
+  display: flex;
+  flex-direction: row;   
+}
+
+.container .vert-center{
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* padding 5px*/
+    padding: 0.5rem;
+}
+
+.col-6{
+    width: 50%;  
+}

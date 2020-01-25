@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transitions Demo</title>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<link rel="stylesheet" type="text/css" href="./transition.css">
+
+</head>
+<body>
+	<h1 class="fixed-nav">Kodecamp - CSS Transitions</h1>
+
+	<div class="container">
+		
+		<div class="notice-section">
+			<h3 class="notice">Take mouse over Shape to see the changes</h3>
+		</div>
+		<!-- Effect Section -->
+		<div class="effect-section-wrapper">
+			<div class="effect-section">
+
+				<h3>Scale Animation</h3>
+		  		<div class="zoom effect-area">scale</div>
+		  		<hr>
+		  		
+		  		<h3>Rotate Animation</h3>
+		  		<div class="rotate-clockwise effect-area">rotate clockwise 30deg</div>
+		  		<hr>
+		  		<br>
+		  		
+	  		</div>
+	  		<h3>Interactive Buttons</h3>
+		  	<div class="btn-section">
+		  		<a href="http://kodecamp.bitballoon.com" class="btn btn-info">Info Button</a>
+
+		  		<a href="http://kodecamp.bitballoon.com" class="btn btn-success">Success Button</a>
+
+		  		<a href="http://kodecamp.bitballoon.com" class="btn btn-danger">Danger Button</a>
+		  	</div>
+
+		  	<hr>
+		  	<br>
+		  	<a id="chatBtn" href="" class="btn btn-info" onclick="openChatBubble();return false;">Open Chat Bubble</a>
+
+
+		  	<div class="chat-div" id="chatDiv">
+		  		Hello ! What do you want to say ?
+		  	</div>
+
+
+  		</div>
+
+	</div>
+
+	<script type="text/javascript">
+		function openChatBubble(event){
+			var btnElement = document.getElementById('chatDiv');
+			chatDiv.classList.toggle('chat-bubble');
+		}
+
+	</script>
+</body>
+</html>

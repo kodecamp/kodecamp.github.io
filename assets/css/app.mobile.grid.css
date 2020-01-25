@@ -1,0 +1,26 @@
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /*padding: 1.6rem 1.6rem;*/
+}
+
+
+.col-s-6{
+    width: 50%;  
+    padding: 1.6rem;
+
+}
+
+.col-s-12{
+    width: 100%;  
+    padding: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

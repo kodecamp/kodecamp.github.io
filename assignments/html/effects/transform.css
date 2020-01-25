@@ -1,0 +1,81 @@
+
+.effect-section-wrapper{
+	position: relative;
+	left: 100px;
+}
+
+.effect-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-left: 5px solid black;
+}
+
+hr {
+	background-color: darkgray;
+	height: 5px;
+}
+
+.effect-section .effect-area{
+	
+	height: 100px;
+	width: 100px;
+	color: white;
+
+}
+
+/* effects start from here */
+
+.shift-x-positive {
+	transform: translateX(50px);
+	background-color: red;
+}
+
+.shift-x-negative {
+	transform: translateX(-50px);
+	background-color: blue;
+}
+
+.shift-y-positive {
+	transform: translateY(25px);
+	background-color: green;
+}
+
+.shift-y-negative {
+	transform: translateY(-25px);	
+	background-color: red;
+	opacity: 0.8;
+}
+
+.rotate-clockwise {
+	transform: rotate(30deg);
+	background-color: blue;
+}
+
+.rotate-anti-clockwise {
+	transform: rotate(-30deg);
+	background-color: red;
+	opacity: 0.8;
+}
+
+.zoom-in-x {
+	transform: scaleX(1.5);
+	background-color: blue;
+}
+
+.zoom-out-x {
+	transform: scaleX(.5);
+	background-color: red;
+}
+
+.zoom-in-xy {
+	transform: scale(1.25,1.25);
+	background-color: blue;
+	opacity: 0.8;
+}
+
+.zoom-out-xy {
+	transform: scale(.5,.5);
+	background-color: red;
+	opacity: 0.8;
+}

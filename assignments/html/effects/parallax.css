@@ -1,0 +1,14 @@
+body{
+  padding: 0;
+  margin: 0;
+  height: 1000px;
+}
+
+.img-banner {
+    background-image: url(bg.jpg),url(http://placehold.it/250x250);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    min-height: 600px;
+}
